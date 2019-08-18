@@ -1,0 +1,30 @@
+ /** —“–¿Õ»÷¿ ¿¬“Œ–»«¿÷»» */
+ #page-content-wrapper {
+     background: url(../images/kolos_4.png) right top+105px no-repeat;
+     min-height: 750px;
+     font-size: 12px !important;
+ }
+ #page-content-wrapper div, #page-content-wrapper-2 div {
+     font-size: 14px !important;
+ }
+ .content {
+     width: auto !important;
+     height: 100%;
+     background-color: white;
+ }
+ #page-content-wrapper h5, #page-content-wrapper h3, #page-content-wrapper button, #page-content-wrapper p, .page-header, .btn {
+     font-size: 12px !important;
+     text-align: center;
+ }
+ .btn {
+     float: right;
+     margin-right: -17px;
+ }
+
+ #loginForm {
+     width: 40%;
+     margin-left:40%;
+ }
+ .form-group {
+     width: 40%;
+ }

@@ -1,0 +1,172 @@
+.container-header-settings{
+  background-color: #FFFFFF;
+  max-width: 195px;
+  height: 73vh;
+  border-radius: 6px !important;
+  border: 1px solid #b4b4b4;
+  overflow: hidden;
+}
+
+.container-body-settings{
+  width: 195px;
+  max-height: 73vh;
+  overflow: auto;
+}
+
+.rectangle{
+  margin-right: 4px !important;
+  width: 30px;
+  height: 15px;
+}
+
+td{
+  vertical-align: top;
+  padding-bottom: 8px;
+}
+
+#i_leg{
+  margin-left: 17px !important;
+  font-size: 18px;
+}
+
+#ap_table{
+  opacity: 1;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  -o-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.table-settings{
+  margin-top: 10px;
+  max-width: 150px;
+  margin-left: 12px;
+}
+
+.inv{
+  background-color: transparent;
+}
+
+input.chk-btn {
+  display: none;
+}
+input.chk-btn + label {
+  position: absolute;
+  background: #FFFFFF;
+  border: 1px solid #b4b4b4;
+  margin-left: 380px;
+  width: 40px;
+  min-height: 31px;
+  border-radius: 4px;
+  color: #b4b4b4 !important;
+  cursor: pointer;
+}
+input.chk-btn:not(:checked) + label:hover {
+  background-color: #E6E6E6 !important;
+  color: #F0A438 !important;
+}
+input.chk-btn + label:active,
+input.chk-btn:checked + label {
+  background-color: #F0A438 !important;
+  color: #FFFFFF !important;
+}
+
+select:disabled{
+  background-color: #ebebe4;
+}
+
+.right-legend{
+  cursor: pointer;
+  position: absolute;
+  top: 68px;
+  right: 29px;
+}
+
+select{
+  width: 100%;
+  height:25px;
+}
+
+#map-setting{
+  overflow: hidden;
+  max-height: 41px;
+}
+
+#accordion{
+  position: absolute;
+  top: 110px;
+  right: 29px;
+  width: 195px;
+}
+
+.shir{
+  height: 80vh !important;
+}
+
+.table-map-content td:nth-child(2){
+  padding-left: 8px !important;
+}
+
+.table-map-content tr:nth-child(2), .table-map-content tr:nth-child(3),
+.table-map-content tr:nth-child(4), .table-map-content tr:nth-child(5),
+.table-map-content tr:nth-child(6), .table-map-content tr:nth-child(7){
+  color: #888887;
+}
+
+.table-map-content{
+  font-size: 12px;
+}
+
+.table-text{
+  max-width: 115px;
+  font-size: 10px;
+  text-align: left;
+}
+
+#ap_table{
+  opacity: 1;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  -o-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.fa-test::before {
+  margin-left: 0px !important;
+}
+
+.div-disabled{
+  cursor: not-allowed !important;
+}
+
+.div-disabled-color{
+  background-color: #ebebe4 !important;
+  pointer-events: none;
+}
+
+.panel-settings-layers{
+  padding: 15px;
+  width: 400px;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+}
+
+.panel-radius-close{
+  border-radius: 4px;
+}
+
+.parameters-text{
+  color: #638841 !important;
+  font-size: 14px;
+}
+
+.gm-svpc{
+  visibility: hidden;
+}
+
+.label-legenda{
+  color: black !important;
+  font-size: 12px;
+  font-weight: normal;
+  position: absolute;
+  top: 12px;
+  right: 90px;
+}

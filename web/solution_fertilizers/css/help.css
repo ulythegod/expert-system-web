@@ -1,0 +1,125 @@
+.table.table-bordered.table-hover.table-soil,/*Стили для таблицы с данными*/
+.table.table-bordered.table-hover.table-soil th,
+.table.table-bordered.table-hover.table-soil tr,
+.table.table-bordered.table-hover.table-soil td{
+    font-size: 12px !important;
+    border: 1px solid #ddd !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+.table.table-bordered.table-hover.table-categories-of-soils,
+.table.table-bordered.table-hover.table-categories-of-soils th,
+.table.table-bordered.table-hover.table-categories-of-soils tr,
+.table.table-bordered.table-hover.table-categories-of-soils td{
+    font-size: 12px !important;
+    border: 1px solid #ddd !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+.table.table-bordered.table-hover.table-groups-of-crops,
+.table.table-bordered.table-hover.table-groups-of-crops th,
+.table.table-bordered.table-hover.table-groups-of-crops tr,
+.table.table-bordered.table-hover.table-groups-of-crops td{
+    font-size: 12px !important;
+    border: 1px solid #ddd !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+.table.table-bordered.table-hover.table-grades-of-crops,
+.table.table-bordered.table-hover.table-grades-of-crops th,
+.table.table-bordered.table-hover.table-grades-of-crops tr,
+.table.table-bordered.table-hover.table-grades-of-crops td{
+    font-size: 12px !important;
+    border: 1px solid #ddd !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+H1 { /*Стиль для заголовков страницы*/
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    text-align:left;
+}
+
+H2 { /*Основные этапы настройки парамтров*/
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 130%;
+    font-weight: bold;
+    text-align:center;
+}
+
+B { /*название блоков: название табл и Блок настройки визуальных параметров*/
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+    text-align:left;
+}
+.dataColorHatching/*Стиль для строки Цвет(...)и Штриховка(...)*/
+{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 110%;
+    font-weight: 500;
+    text-align:left;
+}
+figure.img {/*Размещение рисунков в разделе помощь*/
+    margin: 0;
+    text-align: center;
+}
+figure.img img {/*занимает 70% пространства*/
+    max-width: 100%;
+    height: auto;
+}
+figure.img figcaption { /*Стиль шрифта для подписи к рисунку*/
+    padding: 0 2%;
+    font: italic 100% Verdana;
+}
+
+P { /*основной текст страниц помощи */
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+    text-align: left;
+}
+.colortext
+{
+    color: red; /* Цвет текста внимание (стр помощи)*/
+}
+
+.navbar.navbar-tools .panel-title /*Панель для основных этапов настройки*/
+{
+    color:white !important; /*Цвет текста*/
+    margin-left: 0px;
+}
+
+.navbar.navbar-tools
+{
+    background-color:grey !important; /*Шапка зеленый цвет*/
+    border-color: #DEDEDE;    /*Границы - светло-серы*/
+}
+
+.stage { /*Стиль для названия Этап 1- ...*/
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+    text-align:left;
+}
+ol {
+    counter-reset: li;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+.list a {
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: black;
+    background: white;
+}
+.list a:before {
+    counter-increment: li;
+    content: counters(li,".") ". ";
+}
+

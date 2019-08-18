@@ -1,0 +1,22 @@
+.panel-setting-parameters select
+{
+    width: 100%;
+    height:25px;
+}
+.comp-data-select{
+    /*margin-top: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;*/
+    padding: 4px !important;
+}
+.comp-data-load{
+    margin-top: 10px;
+}
+
+.pagination > li > a, .pagination > li > span {
+    border:none;
+}
+
+label.btn{
+    width:32% !important;
+}

@@ -1,0 +1,457 @@
+
+                                            /*СТИЛИ ДЛЯ СТРАНИЦ ВКЛАДКИ "ПРОЕКТИРОВАНИЕ"*/
+/*Главная страница*/
+.welcome-text
+{
+    vertical-align: middle;
+    text-align: center;
+    margin-top:30px;
+}
+
+/*Таблицы результатов в режиме2*/
+.tab-content
+{
+    width:100%;
+}
+.navbar-tools-2{
+	background-color: #355300 !important; 
+	border-color:White;
+}
+.processed{
+	background-color: #ffaf2e !important; 
+	border-color: transparent !important;
+}
+.navbar.navbar-tools-2 .panel-title.main{
+	color: white !important; 
+	margin-left: 0px;
+}
+i.status
+{
+    float:right;
+}
+.panel-body
+{
+    width:100%;
+	padding:0px;
+	background-color:White;
+	
+}
+.panel-body .collapse 
+{
+    width:100%;
+}
+.panel-with-scroll 
+{
+    height:167px;
+}
+
+.col-md-12
+{
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+#page-content-wrapper table {
+	font-size: 10px !important;	
+}
+table
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.table-bordered
+{
+    padding: 0px;
+    margin: 0px;
+}
+td
+{
+    text-align:justify;
+    font-size:12px;
+}
+td.center
+{
+    text-align: center;
+    font-size:12px;
+}
+
+th
+{
+    padding: 1px !important;
+    text-align: center;
+    vertical-align: middle !important;
+    border-bottom-width: 0px !important;
+}
+th.caption
+{
+    width: 20%;
+    font-size:larger;
+    font-weight: bold;
+    text-align: left;
+}
+th.fertilizers
+{
+   width: 20%;
+   font-size:larger;
+   font-weight: bold;
+    text-align: left;
+    padding: 12px !important;
+}
+
+th.fertilizers-color{
+    width: 20%;
+    font-size:larger;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px !important;
+    background: #E8E8E8;
+}
+
+td.fertilizers-color-td{
+  background: #E8E8E8;
+    padding: 12px !important;
+}
+
+td.fertilizers-padding-td{
+   padding: 12px !important;
+}
+
+th.calc 
+{
+    background-color: #E8E8E8 !important; 
+	border-color: transparent !important;
+	height:30px;
+	font-size:12px;
+}
+.data-label-single-checkbox{
+	color: black !important;
+	font-size: 12px;
+	/*font-style: none;*/
+	font-weight: normal;
+	padding-left: 3px;
+}
+.checkbox{	
+	height: 23px !important;
+	padding-left: 5px !important;
+	padding-right: 0px !important;
+}
+input.showAll
+{
+    margin:10px;
+}
+.crop-rotation-field{
+	background-color: #DEDEDE !important; 
+}
+
+/*Таблицы результатов в режиме1*/
+th.pack
+{
+    background-color: #355300 !important; 
+    color: White;
+	border-color: transparent !important;
+	height:30px;
+	font-size:12px;
+}
+
+th.res
+{
+    background-color: #ffaf2e !important; 
+	border-color: transparent !important;
+	height:30px;
+	font-size:12px;
+}
+
+/*Панель настройки параметров режим1,2*/
+#panel.open{
+	width: 500px;
+	height:500px;
+}
+.panel-setting-parameters-title h3, .panel-results-title h3
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+fieldset{
+	padding: 6px 10px;
+	border:1px solid #999999;
+	margin-top: 5px;
+}
+
+fieldset:disabled, fieldset select:disabled, fieldset input:disabled, p.disabled{
+	color: #555;
+}
+
+fieldset legend 
+{
+    margin-bottom: 0;
+    margin-left:2px;
+    padding-left:5px;
+    padding-right:5px;
+    width:auto;
+    border:0px;
+}
+fieldset:disabled, fieldset:disabled legend, fieldset select:disabled, fieldset input:disabled, p.disabled{
+	color: #555;
+}
+fieldset p 
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+fieldset input[type="text"]
+{
+    width: 100%;
+    height: 25px;
+}
+p.enabled{
+	color: black;
+}
+.panel-setting-parameters form select
+{
+    width: 100%;
+    height:25px;
+}
+.form-buttons 
+{
+    margin-top:10px;
+    float:right;
+}
+
+/*Панель выбора результатов режим1*/
+#sidebar-panel-results{
+	width: 100%; 
+	height: auto; 
+	margin: 0px; 
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.panel-results{
+	width: 100%;
+	padding: 0px;
+	font-size: 12px;
+	min-height: 20px;
+}
+.panel-results-title{
+	height: 30px;
+	width: auto;
+	margin-left: 0px;  
+	background-color: #F2F2F2 !important;
+	border-bottom: 1px solid #ddd;
+}
+
+.panel-results-title h3{
+	margin: 0px; padding-top: 8px; padding-left: 8px;
+}
+
+.panel-results-with-scroll {
+    min-height: 100px;
+    height: 100px;
+    overflow-y: scroll;
+    padding: 8px;
+    height: 94%;
+    padding-right: 10px;
+}
+
+ #panel-res  {
+    position: relative;
+    float: left;
+    left: 0px;
+    top: 0px;    
+    height: 100px;
+    width: 0px;
+    overflow: hidden;
+}
+#panel-res.open #tabbb{
+	left: -17px;
+}
+#panel-res.open{
+	width: 700px;
+	height:500px;
+	display: block;
+}
+#panel-res .content{
+    padding: 0px;
+    width: 290px;
+}
+.control{
+	width: 98%;
+	margin-top: 5px;
+	padding-left: 8px;
+}
+.control input[type=checkbox]{
+	vertical-align: middle;
+	position: relative;
+	bottom: 2px;
+	margin: 0 2px 0 2px;
+	padding: 0;
+}
+.control button{
+	border: none;
+	background: none;
+	cursor: pointer;
+	font-size: 1em;
+}
+.control button img{
+	width: 16px;
+	vertical-align: middle;
+	padding-bottom: 4px;
+}
+.control img#checkbox-minus1{
+	vertical-align: middle;
+	position: relative;
+	bottom: 1px;
+}
+.span{
+	height: 7px;
+}
+#results-tests1 tr.selected td {
+    background-color: #e6f3c9;
+}
+/*dataTable*/
+ table.dataTable {
+     width: 100%;
+     margin: 0 auto;
+     clear: both;
+     border-collapse: separate;
+     border-spacing: 0;
+ }
+ table.dataTable thead th,
+ table.dataTable tfoot th {
+     font-weight: bold;
+ }
+ table.dataTable thead th,
+ table.dataTable thead td {
+     padding: 10px 18px;
+     border-bottom: 1px solid #111;
+ }
+ table.dataTable thead th:active,
+ table.dataTable thead td:active {
+     outline: none;
+ }
+ table.dataTable thead .sorting,
+ table.dataTable thead .sorting_asc,
+ table.dataTable thead .sorting_desc,
+ table.dataTable thead .sorting_asc_disabled,
+ table.dataTable thead .sorting_desc_disabled {
+     cursor: pointer;
+     *cursor: hand;
+ }
+ table.dataTable thead .sorting,
+ table.dataTable thead .sorting_asc,
+ table.dataTable thead .sorting_desc,
+ table.dataTable thead .sorting_asc_disabled,
+ table.dataTable thead .sorting_desc_disabled {
+     background-repeat: no-repeat;
+     background-position: center right;
+ }
+ table.dataTable thead .sorting {
+     background-image: url("/planning_formation/images/sort_both.png");
+     background-origin: border-box;
+     background-size: 17px;
+     padding: 10px !important;
+ }
+ table.dataTable thead .sorting_asc {
+     background-image: url("/planning_formation/images/sort_asc.png");
+     background-origin: border-box;
+     background-size: 17px;
+     padding: 10px !important;
+ }
+ table.dataTable thead .sorting_desc {
+     background-image: url("/planning_formation/images/sort_desc.png");
+     background-origin: border-box;
+     background-size: 17px;
+     padding: 10px !important;
+ }
+ table.dataTable thead .sorting_asc_disabled {
+     background-image: url("/planning_formation/images/sort_asc_disabled.png");
+     background-origin: border-box;
+     background-size: 17px;
+     padding: 10px !important;
+ }
+ table.dataTable thead .sorting_desc_disabled {
+     background-image: url("/planning_formation/images/sort_desc_disabled.png");
+     background-origin: border-box;
+     background-size: 17px;
+     padding: 10px !important;
+ }
+ table.dataTable,
+ table.dataTable th,
+ table.dataTable td {
+     -webkit-box-sizing: content-box;
+     box-sizing: content-box;
+ }
+ .dataTables_filter {
+     float : right;
+ }
+ #results-tests1_filter label
+ {
+     font-size: 9pt !important
+ }
+ #results-tests1 thead tr
+ {
+     background-color: #F2F2F2 !important;
+ }
+
+
+
+/*Карта*/
+#map{
+	width: auto;
+	height: 500px;
+}
+/*Режим 3 - всплывающее окно*/
+.window-mode3
+{
+  width: 100%;
+  height: 60px;
+  background-color: #C0C0C0;
+  color: #000000;
+  text-align: center;
+  padding:5px;
+}
+
+/*Вкладки*/
+
+#tabs
+{
+    padding:0px;
+    margin-top : 2px !important;
+}
+.white
+{
+    background-color:White !important;
+}
+
+/*Помощь по разделу*/
+
+.content-help h4
+{
+    padding: 10px;
+    text-align: center;
+}
+.content-help h6
+{
+    font-size: 14px;
+    text-align:justify;
+}
+.text-color
+{
+    color: #355300;
+    font-weight: bold;
+}
+.content-help ul 
+{
+    list-style-type:decimal;
+}
+.content-help li ul
+{
+    list-style-type: circle;
+}
+#mode1, #mode2, #mode3 {
+    border-color: #DEDEDE !important;
+    border-style: solid;
+    padding: 8px;
+}
